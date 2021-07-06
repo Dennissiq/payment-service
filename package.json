@@ -6,9 +6,10 @@
   "author": "Dennis Siqueira <ti.dennissiqueira@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node-dev src/server.ts"
+    "start": "ts-node-dev src/config/server.ts"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
